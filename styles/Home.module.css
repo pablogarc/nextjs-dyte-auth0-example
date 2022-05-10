@@ -1,0 +1,33 @@
+.title {
+  margin: 10px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meetingContainer {
+  display:flex;
+  justify-content:center;
+}
+
+.alignItems {
+  width: 150px;
+  margin: 5px;
+  text-align: center;
+}
+
+.logout{
+  margin-left: 20px;
+  font-size: medium;
+}
+
+.meetingsList {
+  font-size: medium;
+  margin: 8px;
+}
