@@ -43,7 +43,7 @@ function Test() {
         </div>
         <div>
           <button className={styles.logout} onClick={() => 
-            router.push('/api/auth/logout').then(router.push("/"))}>
+            router.push('/api/auth/logout')}>
             Logout
           </button>
         </div>
