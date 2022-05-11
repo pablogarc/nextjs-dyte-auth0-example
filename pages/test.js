@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from "react";
 import styles from '../styles/Home.module.css';
 
-function test() {
+function Test() {
     const { user, error, isLoading } = useUser();
     const router = useRouter();
   
@@ -51,6 +51,6 @@ function test() {
     )
 }
 
-export default test
+export default Test
 
 export const getServerSideProps = withPageAuthRequired();
